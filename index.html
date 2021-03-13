@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Generate Passwords</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--********************* For Nav bar with about us etc***************** -->
+    <!-- <div class="container">
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        -->
+
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <div class="circle4"></div>
+        <div class="circle5"></div>
+        <div class="circle6"></div>
+        <div class="circle7"></div>
+        <div class="circle8"></div>
+        <div class="circle9"></div>
+        <div class="circle10"></div>
+
+    <div class="left_text_row">
+        <div class="col-1">
+        
+            <h2>Generate yourself a password</h2>
+            <p>
+                A Password generator for when you're tired of using the same passwords for everything.
+                Choose the length of your password and customize it how you want.You can also directly copy the password to clipboard.<br>
+                Some of my passwords got compromised, so i decided to make a password genererator to put my HTML,CSS and Javascript skills to the test.
+                  
+            </p>
+        </div>
+            <div class="col-2">        
+                
+                <div class="p_container">
+                    <div class="p_header">
+                        <div class="p"  >
+                            <span id="p">Select options and generate</span>  
+                            <button id="copy"><img src="copy.png"></button>
+                        </div>
+                    </div>
+
+                    <div class="p_body">
+                        <div class="form-control">
+                            <label for="length">Password Length</label>
+                            <input id="length" value="8" type="number" min="8" max="20">
+                        </div>
+
+                        <div class="form-control">
+                            <label for="upper">Include Uppercase Letters</label>
+                            <input class="check" id="upper" type="checkbox">
+                        </div>
+
+                        <div class="form-control">
+                            <label for="lower">Include Lowercase Letters</label>
+                            <input class="check" id="lower" type="checkbox">
+                        </div>
+
+                        <div class="form-control">
+                            <label for="number">Include Numbers</label>
+                            <input class="check" id="number" type="checkbox">
+                        </div>
+
+                        <div class="form-control">
+                            <label for="symbols">Include Symbols</label>
+                            <input class="check" id="symbols" type="checkbox">
+                        </div>
+
+                        <button class="generate" id="generate">Generate Password</button>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

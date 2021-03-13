@@ -1,0 +1,293 @@
+body{
+    background: linear-gradient(to right bottom,rgba(101,223,201,0.8),rgba(108,219,235,0.5));
+    margin: 0;
+    font-family: "poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.left_text_row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: -3%;
+    background: linear-gradient(to right bottom,rgba(101,223,201,0.7),rgba(108,219,235,0.4));
+    border-radius: 2rem;
+    padding: 2rem;
+    backdrop-filter: blur(0.3rem);
+
+}
+
+h2{
+    font-size: 2rem;
+    color: #426696;
+
+}
+
+p{
+    font-size: 1.3rem;
+    color: #658ec6;    
+}
+
+/* ********************************* For circles ************************** */
+.circle1,.circle2,.circle3,.circle4,.circle5,.circle6,.circle7,.circle8,.circle9,.circle10{
+    background: linear-gradient(to right top,rgba(255,255,255,0.8),rgba(255,255,255,0.2));
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+
+.circle1{
+    top: 20%;
+    right: 10%;
+    height: 7rem;
+    width: 7rem;
+}
+
+.circle2{
+    bottom:15%;
+    left: 10%;
+    height: 10rem;
+    width: 10rem;
+}
+
+.circle3{
+    bottom:70%;
+    left: 18%;
+    height: 6rem;
+    width: 6rem;
+}
+.circle4{
+    bottom:65%;
+    left: 4%;
+    height: 8rem;
+    width: 8rem;
+}
+.circle5{
+    bottom:75%;
+    left: 0%;
+    height: 5rem;
+    width: 5rem;
+}
+.circle6{
+    bottom:83%;
+    left: 18%;
+    height: 4rem;
+    width: 4rem;
+}
+.circle7{
+    bottom:30%;
+    left: 88%;
+    height: 5rem;
+    width: 5rem;
+}
+.circle8{
+    bottom:2%;
+    left: 85%;
+    height: 6rem;
+    width: 6rem;
+}
+.circle9{
+    bottom:17%;
+    left: 90%;
+    height: 3rem;
+    width: 3rem;    
+}
+.circle10{
+    bottom:10%;
+    left: 77%;
+    height: 8rem;
+    width: 8rem;
+}
+
+/* ********************************* For Password Generator Section ************************** */
+input[type="number"] {
+    border: none;
+    border-radius: 1rem;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.562);
+    color:  #658ec6;
+    outline: none;
+ }
+
+
+
+.p_container{
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    backdrop-filter: blur(3rem);
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(28, 215, 248, 0.15) ;
+    margin-left:3%;
+}
+
+.p_header{
+    padding: 1rem;
+}
+
+.p{
+    background: linear-gradient(to right bottom,rgba(255,255,255,1),rgba(255, 255, 255, 0.349));
+    display: flex;
+    font-size: 1.3rem;
+    align-items: center;
+    height: 50px;
+    width: 91.5%;
+    position: relative;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: #426696 ;
+}
+
+.p button{
+    border: none;
+    padding: -1rem;
+    background: rgba(255, 255, 255, 0);
+    position: absolute;
+    bottom: 15px;
+    right: -2.5%;
+    transform: translate(-50%,50%);
+    outline: none;
+}
+
+button:hover, button:focus{
+    outline: none;
+    cursor:pointer;
+}
+
+.p_body{
+    padding: 0 1rem 1rem;
+}
+
+.form-control{
+    color: #658ec6;    
+    display: flex;
+    justify-content: space-between;
+    margin: 0.75rem 0;
+}
+
+.generate{
+    background: linear-gradient(to right top, #65dfc9,#6cdbeb );
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    display: block;    
+    font-size: 1.5rem;
+    padding: 0.6rem;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+
+/******************************************************************************* Responsiveness ******************************************************************/
+
+
+@media only screen and (max-width:1536px){
+  
+    h2{
+        font-size: 2rem;
+        color: #426696;
+        margin-left: 2%;
+    }
+    
+    p{
+        font-size: 1.3rem;
+        color: #658ec6;
+        margin-left: 2%;
+    }
+    
+   /* ********************************* For circles ************************** */
+.circle1,.circle2,.circle3,.circle4,.circle5,.circle6,.circle7,.circle8,.circle9,.circle10{
+    background: white;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.8),rgba(255,255,255,0.5));
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+
+.circle1{
+    top: 10%;
+    right: 8%;
+    height: 7rem;
+    width: 7rem;
+}
+
+.circle2{
+    bottom:9%;
+    left: 10%;
+    height: 10rem;
+    width: 10rem;
+}
+
+.circle3{
+    background: linear-gradient(rgba(189,220,248,0.7));
+    bottom:70%;
+    left: 18%;
+    height: 6rem;
+    width: 6rem;
+}
+.circle4{
+    background: linear-gradient(rgba(198,229,249,0.9));
+    bottom:65%;
+    left: 4%;
+    height: 8rem;
+    width: 8rem;
+}
+.circle5{
+    background: linear-gradient(rgba(179,225,248,0.4));
+    bottom:80%;
+    left: 0%;
+    height: 5rem;
+    width: 5rem;
+}
+.circle6{
+    background: linear-gradient(rgba(189,220,248,0.7));
+    bottom:85%;
+    left: 18%;
+    height: 4rem;
+    width: 4rem;
+}
+.circle7{
+    bottom:30%;
+    left: 88%;
+    height: 5rem;
+    width: 5rem;
+    background: linear-gradient(rgba(204,237,254,0.7));
+}
+.circle8{
+    bottom:2%;
+    left: 85%;
+    height: 6rem;
+    width: 6rem;
+    background: linear-gradient(rgba(189,220,248,0.7));
+}
+.circle9{
+    bottom:17%;
+    left: 90%;
+    height: 3rem;
+    width: 3rem;    
+    background: linear-gradient(rgba(190,221,242,0.7));
+}
+.circle10{
+    bottom:10%;
+    left: 77%;
+    height: 8rem;
+    width: 8rem;
+    background: linear-gradient(rgba(189,220,248,0.7));
+}
+
+.p_container{
+        width: 400px;
+        border-radius: 8px;
+        box-shadow: 0 5px 20px rgba(28, 215, 248, 0.15) ;
+        margin-left: 2%;
+    }
+    
+   
+
+}
